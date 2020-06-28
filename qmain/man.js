@@ -13,7 +13,7 @@ var quotes = ["Live and Love!",
 var quote = document.querySelector(".quote")
 
 
-function changeQuote(){
+const changeQuote = () =>{
     var newQuote = Math.floor(Math.random()*quotes.length);
     quote.innerText = quotes[newQuote];
    
