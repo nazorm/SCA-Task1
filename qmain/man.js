@@ -1,4 +1,4 @@
-var quotes = ["Live and Love!", 
+const quotes = ["Live and Love!", 
 
 "The purpose of our lives is to be happy. — Dalai Lama.",
 
@@ -10,7 +10,7 @@ var quotes = ["Live and Love!",
 
 
     ];
-var quote = document.querySelector(".quote")
+const quote = document.querySelector(".quote")
 
 
 const changeQuote = () =>{
